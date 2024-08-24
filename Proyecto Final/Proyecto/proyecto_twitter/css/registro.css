@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+header .navbar {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .navbar h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header .navbar nav {
+    margin-top: 10px;
+}
+
+header .navbar nav .btn {
+    background-color: #3399ff; /* Azul claro */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+header .navbar nav .btn:hover {
+    background-color: #2678cc;
+}
+
+/* Estilos del contenedor de registro */
+.registro-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2678cc;
+}
+
+/* Mensajes de éxito y error */
+.success {
+    color: green;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
